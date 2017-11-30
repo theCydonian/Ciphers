@@ -1,9 +1,13 @@
-/**
- * Auto Generated Java Class.
- */
+package src;
+
 public class Code1 {
     
-    
+    /**
+     * Main Method encodes and decodes text.
+     * Returns input and output
+     * 
+     * @param args command line input that follows the format [Text, Key, {encode/decode}]
+     * */
     public static void main(String[] args) { 
         
         char[] input = args[0].toCharArray();
@@ -14,7 +18,7 @@ public class Code1 {
             
             int k = 0;
             int i = 0;
-            for (char val : input) {
+            for (char val : input) { //encodes each character
                 char val1 = 'a';
                 char val2 = 'a';
                 
@@ -58,7 +62,7 @@ public class Code1 {
             int i = 0;
             
             Character prevchar = null;
-            for (char val : input) {
+            for (char val : input) { //decodes every pair of characters
                 if (prevchar == null)
                     prevchar = val;
                 else {
@@ -81,7 +85,5 @@ public class Code1 {
             System.out.print(args[2]);
         }
     }
-    
-    /* ADD YOUR CODE HERE */
     
 }
