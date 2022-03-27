@@ -1,6 +1,6 @@
 # Ciphers
 
-This is a collection of ciphers created by me. Many will likely already exist, but this is just a pesonal project, and they will be programmed by me.
+Simple cipher project I wrote in 2017. WILL NOT BE UPDATED
 
 Ciphers:
 
